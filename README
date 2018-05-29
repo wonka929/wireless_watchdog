@@ -14,14 +14,14 @@ Installation
 ------------
 
 wget -q --no-check-certificate -O - \
-https://raw.githubusercontent.com/ssinyagin/wireless_watchdog/master/install_wireless_watchdog.sh | sh 
+https://raw.githubusercontent.com/wonka929/wireless_watchdog/master/install_wireless_watchdog.sh | sudo sh 
 
 
 Uninstalling
 ------------
 
 wget -q --no-check-certificate -O - \
-https://raw.githubusercontent.com/ssinyagin/wireless_watchdog/master/uninstall_wireless_watchdog.sh | sh 
+https://raw.githubusercontent.com/wonka929/wireless_watchdog/master/uninstall_wireless_watchdog.sh | sudo sh 
 
 
 
