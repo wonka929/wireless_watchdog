@@ -3,7 +3,7 @@
  >/usr/local/etc/wireless_watchdog
 
 wget -q --no-check-certificate -O /usr/local/sbin/wireless_watchdog \
-https://raw.githubusercontent.com/ssinyagin/wireless_watchdog/master/wireless_watchdog
+https://raw.githubusercontent.com/wonka929/wireless_watchdog/master/wireless_watchdog
 chmod u+x /usr/local/sbin/wireless_watchdog
 
 cat >/etc/cron.d/wireless_watchdog <<'EOT'
