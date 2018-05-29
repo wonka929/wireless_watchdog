@@ -16,9 +16,9 @@ if ! ping -c ${PING_COUNT} -q 8.8.8.8 >/dev/null ; then
            Internet is unreachable, restarting $DEV
     date >>$LOGFILE
     echo restarting $DEV >>$LOGFILE
-    /sbin/ifdown $DEV >>$LOGFILE 2>&1
+    /usr/bin/pkill wvdial >>$LOGFILE 2>&1
     sleep 5
-    /sbin/ifup $DEV >>$LOGFILE 2>&1
+    /usr/bin/wvdial & >>$LOGFILE 2>&1
 fi
 
 
