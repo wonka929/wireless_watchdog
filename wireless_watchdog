@@ -17,7 +17,7 @@ if ! ping -c ${PING_COUNT} -q 8.8.8.8 >/dev/null ; then
     date >>$LOGFILE
     echo restarting $DEV >>$LOGFILE
     /usr/bin/pkill wvdial >>$LOGFILE 2>&1
-    sleep 5
+    sleep 7
     /usr/bin/wvdial & >>$LOGFILE 2>&1
 fi
 
